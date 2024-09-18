@@ -9,14 +9,15 @@ const UsersHome = () => {
     return (
        <div>
          <div className=' bg-[#F7D6D0]'>
-           <div className='w-4/5 mx-auto'>
+           <div className='w-4/5 mx-auto '>
            {/* <UsersNavbar></UsersNavbar> */}
            <Section1></Section1>
+           <Section2></Section2>
            </div>
         </div>
 
        <div className='w-4/5 mx-auto'>
-            <Section2></Section2>
+            {/* <Section2></Section2> */}
             <Section3></Section3>
        </div>
         <div className=' bg-[#F7D6D0]'>

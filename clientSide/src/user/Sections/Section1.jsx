@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import pictureSection1 from '../../../public/images/pictureSection1.jpg'
 const Section1 = () => {
     return (
-        <div className='lg:flex justify-around items-center grid grid-cols-1   pb-20'>
+        <div className='lg:flex justify-around items-center grid grid-cols-1 pb-20'>
             <div className=''>
              <h2 className='text-black text-5xl font-bold mb-4 mt-28'>Full-Service </h2> 
              <h2 className='text-black text-5xl font-bold mb-4'> Web & Software </h2> 

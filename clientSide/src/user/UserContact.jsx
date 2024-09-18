@@ -76,7 +76,10 @@ const UserContact = () => {
             <div className=''>
             <p className='text-2xl  text-black font-bold mt-16'>FOLLOW OUR SOCIALS! </p>
             <div className='flex mt-6'>
-            <BsFacebook className='text-3xl text-blue-500' />
+              <a href="https://www.facebook.com/profile.php?id=61564395159529" target='_blank'>
+              <BsFacebook className='text-3xl text-blue-500' />
+              </a>
+            
             {/* https://www.linkedin.com/company/andromedait/ */}
             <a href="https://www.linkedin.com/company/andromedait/" target="_blank">
             <IoLogoLinkedin className='text-3xl ml-3 text-blue-500' />

@@ -2,8 +2,8 @@ import { HiChevronRight } from "react-icons/hi2";
 import { HiMiniChevronDoubleRight } from "react-icons/hi2";
 const Section2 = () => {
     return (
-        <div className=' md:flex lg:flex justify-center mt-24 mb-40'>
-            <div className='grid md:grid-cols-1 '>
+        <div className=' md:flex lg:flex justify-center mt-24 mb-40 '>
+            <div className='grid md:grid-cols-1 pb-28'>
            
                 <h2 className='text-4xl text-black font-bold  flex lg:justify-start md:justify-start   justify-center '>How We Work</h2>
                 <p className='text-2xl text-black mt-6 ml-4 md:ml-0 lg:ml-0'>We use a practical strategy to deliver projects through agile-driven stages,<br/> <span className='mt-2'>regardless of the complexity of the project.</span></p>
