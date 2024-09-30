@@ -1,13 +1,55 @@
-import { useEffect, useState } from "react";
 
-
+import realState from '../../../public/images/industry/realEstate.png'
+import financialService from '../../../public/images/industry/financialService.jpg'
+import ecommerce from '../../../public/images/industry/ecommerce.png'
+import transportation from '../../../public/images/industry/transportation.jpg'
+import publicSector from '../../../public/images/industry/publicSector.jpg'
+import itServices from '../../../public/images/industry/itServices.png'
+import entertainment from '../../../public/images/industry/entertainment.png'
+import manufacturing from '../../../public/images/industry/manufacturing.jpg'
+const industry = [
+  {
+      "id":1,
+      "title":"Real Estate",
+      "image":realState
+  },
+  {
+      "id":2,
+      "title":"Financial Services",
+      "image":financialService
+  },
+  {
+      "id":3,
+      "title":"E-Commerce",
+      "image":ecommerce
+  },
+  {
+      "id":4,
+      "title":"Transportation",
+      "image":transportation
+  },
+  {
+      "id":5,
+      "title":"Public Sector",
+      "image":publicSector
+  },
+  {
+      "id":6,
+      "title":"IT Services",
+      "image": itServices
+  },
+  {
+      "id":7,
+      "title":"Entertainment",
+      "image":entertainment
+  },
+  {
+      "id":8,
+      "title":"Manufacturing",
+      "image":manufacturing
+  }
+]
 const Section4 = () => {
-    const [datas,setDatas]=useState([])
-    useEffect(()=>{
-        fetch('../../public/JsonData/Section4.json')
-        .then(res=>res.json())
-        .then(data=>setDatas(data))
-    },[])
    
     return (
        
@@ -21,8 +63,8 @@ const Section4 = () => {
           
             <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4'>
            {
-            datas.map((data)=>
-                <div key={data.id} className="card mx-auto opacity-80 w-48 md:w-60 lg:w-60 h-72 mb-14 bg-white shadow-xl ">
+            industry.map((data)=>
+                <div key={data.id} className="card mx-auto  w-48 md:w-60 lg:w-60 h-72 mb-14 bg-white shadow-2xl ">
                 <figure className="px-10 pt-10">
                   <img
                     src={data.image}

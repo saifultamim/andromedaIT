@@ -94,26 +94,26 @@ const UserContact = () => {
            <div className='grid grid-cols-1 md:grid-cols-1 lg:flex'>
            <div>
            <label className='flex'><p className='text-xl text-black font-bold mb-2'>First Name</p> <FaStarOfLife className='text-[10px]  text-red-500'/></label>
-           <input type="text" className='bg-white w-full lg:w-72 h-16  p-3 mr-8 mb-8' placeholder='Your first name' name='firstName' required /></div> 
+           <input type="text" className='bg-white w-full lg:w-72 h-16  p-3 mr-8 mb-8 rounded-lg' placeholder='Your first name' name='firstName' required /></div> 
          
            
          <div>
          <label className='flex'><p className='text-xl text-black font-bold mb-2'>Last Name</p> <FaStarOfLife className='text-[10px]  text-red-500'/></label>
-         <input type='text' className='bg-white w-full lg:w-72 h-16  p-3 mr-8 mb-8' placeholder='Your last name' name='lastName' required/> <br/>
+         <input type='text' className='bg-white w-full lg:w-72 h-16  p-3 mr-8 mb-8 rounded-lg' placeholder='Your last name' name='lastName' required/> <br/>
          </div>
            </div>
           
            <label className='flex '><p className='text-xl text-black font-bold mb-2'>Work Email</p> <FaStarOfLife className='text-[10px]  text-red-500'/></label>
-            <input type="text" className='bg-white w-full lg:w-[610px] h-16  p-3 mr-8 mb-8' placeholder='Your work email address' name='workEmail' required/> <br/>
+            <input type="text" className='bg-white w-full lg:w-[610px] h-16  p-3 mr-8 mb-8 rounded-lg' placeholder='Your work email address' name='workEmail' required/> <br/>
 
             <label className='text-xl text-black font-bold mb-2'>Company Name</label><br/>
-            <input type='text' className='bg-white w-full lg:w-[610px] h-16  p-3 mr-8 mb-8' placeholder='Your company name' name='companyName' /> <br/>
+            <input type='text' className='bg-white w-full lg:w-[610px] h-16 mt-2  p-3 mr-8 mb-8 rounded-lg' placeholder='Your company name' name='companyName' /> <br/>
              
             <label className='flex'><p className='text-xl text-black font-bold mb-2'>Phone</p> <FaStarOfLife className='text-[10px]  text-red-500'/></label>
-            <input type="text" className='bg-white w-full  lg:w-[610px] h-16  p-3 mr-8 mb-8' placeholder='Your phone number' name='phone' required/> <br/>
+            <input type="text" className='bg-white w-full  lg:w-[610px] h-16  p-3 mr-8 mb-8 rounded-lg' placeholder='Your phone number' name='phone' required/> <br/>
 
             <label className='text-xl text-black font-bold mb-2'>Message</label><br/>
-            <textarea id="message" name="message" rows="8" cols=" 81" className='pl-4 pt-4 mt-2 bg-white w-full ' placeholder='Write your message here...'></textarea><br/>
+            <textarea id="message" name="message" rows="8" cols=" 81" className='pl-4 pt-4 mt-2 bg-white w-full rounded-lg' placeholder='Write your message here...'></textarea><br/>
           
          
            <input type="submit" className='bg-[#FF2E2E] text-white hover:bg-[#FF5C5C] mt-3 w-48 h-16 text-2xl rounded-lg ' />
